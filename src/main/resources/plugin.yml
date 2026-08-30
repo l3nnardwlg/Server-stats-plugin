@@ -1,0 +1,16 @@
+name: ServerStats
+version: '${project.version}'
+main: com.agfstudios.serverstats.ServerStatsPlugin
+api-version: '1.21'
+authors: [AGF Studios]
+description: Authenticated HTTP API for Paper server and player statistics.
+website: https://github.com/l3nnardwlg/Server-stats-plugin
+commands:
+  serverstats:
+    description: Shows ServerStats status and reloads configuration.
+    usage: /serverstats [reload]
+    permission: serverstats.admin
+permissions:
+  serverstats.admin:
+    description: Allows administration of ServerStats.
+    default: op
