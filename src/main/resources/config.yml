@@ -1,0 +1,16 @@
+http:
+  host: "127.0.0.1"
+  port: 8765
+  api-key: "CHANGE_ME"
+
+security:
+  require-authentication: true
+  allow-unauthenticated-status: false
+
+stats:
+  refresh-seconds: 5
+  count-from: "2026-09-01T18:00:00+02:00"
+  persist-file: "stats.json"
+
+server:
+  public-name: "Minecraft Server"
